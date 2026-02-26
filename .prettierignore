@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Cache
+.cache/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Lock files (optional - uncomment if needed)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Auto-generated
+*.min.js
+*.min.css
