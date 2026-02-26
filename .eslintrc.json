@@ -15,6 +15,7 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
+		"next/core-web-vitals",
 		"prettier"
 	],
 	"rules": {
@@ -29,5 +30,5 @@
 		"@typescript-eslint/explicit-function-return-type": "off",
 		"@typescript-eslint/consistent-type-imports": "error"
 	},
-	"ignorePatterns": ["node_modules/", "dist/", "build/", "*.min.js", "*.js"]
+	"ignorePatterns": ["node_modules/", "dist/", "build/", "out/", ".next/", "*.min.js"]
 }
